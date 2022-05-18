@@ -20,17 +20,29 @@ The following are criteria for a frequency distribution to be a binomial distrib
 1. The experiment consists of n repeated trials.
 2. Each trial can result in just two possible outcomes (a success anda failure).
 3. The trials are independent (the outcome on one trial does not affect the outcome on other trials).
- 
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 # Procedure :
 
 ![image](https://user-images.githubusercontent.com/104613195/166250867-46571ef5-f77b-4658-86ce-1c60c52fdfb1.png)
 
 # Program
-## Program
-## Developed by
-## Register Number: 212220230058
-## Name: Vigneshwar S
-```
+ Developed by <br>
+ Register Number: 212220230059 <br>
+ Name: ARR.VIJAYARAGAVAN <br>
+```python
 import numpy as np
 import math
 import scipy.stats
@@ -47,7 +59,7 @@ print("  X P(X=x) Obs.Fr  Ex.Fre   xi ")
 print("----------------------------------")
 for x in range(7):
     c=math.factorial(n)/(math.factorial(x)*math.factorial(n-x))
-    Pr.append(c*p*x*q*(n-x))
+    Pr.append(c*p**x*q**(n-x))
     E.append(Pr[x]*N)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.2f  %4.2f   %3.2f  %3.2f"%(x,Pr[x],f[x],E[x],xi[x]))
@@ -60,9 +72,13 @@ if cal_chi2<tab_chi2:
     print("The given data can be fitted in binomial distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in binomial distribution at 1% LOS")
-
 ```
-# Output :
-![1](https://user-images.githubusercontent.com/77089276/166443313-e0ec8f03-ea11-4805-a252-5b7171feda8e.png)
-# Result :
-Thus, fitting binomial distribution for the given frequencey distribution is verified.
+
+
+# Output : 
+![image](https://user-images.githubusercontent.com/75235488/168961860-672cd3af-74da-42b8-95fa-8e828205cd58.png)
+
+
+
+# Result:
+Thus, fitting poisson distribution for the given frequencey distribution is verified.
