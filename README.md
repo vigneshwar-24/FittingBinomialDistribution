@@ -1,4 +1,6 @@
-# Fitting Binomial Distribution
+### EX NO : 01
+### DATE  : 30.03.2022
+# <p align="center">Fitting Binomial Distribution</p>
 
 # Aim : 
 
@@ -30,9 +32,6 @@ The following are criteria for a frequency distribution to be a binomial distrib
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 
 # Procedure :
 
@@ -41,7 +40,7 @@ The following are criteria for a frequency distribution to be a binomial distrib
 # Program
  Developed by <br>
  Register Number: 212220230058 <br>
- Name: VIGNESHWAR S <br>
+ Name: Vigneshwar S <br>
 ```python
 import numpy as np
 import math
